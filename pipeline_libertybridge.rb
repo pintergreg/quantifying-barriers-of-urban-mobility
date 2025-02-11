@@ -1,4 +1,19 @@
+require "optparse"
+
+options = {}
+OptionParser.new do |opts|
+    opts.banner = "Usage: pipeline_libertybridge.rb"
+
+    opts.on("--downtown", "Specify downtown variant") do |x|
+        options[:downtown] = true
+    end
+end.parse!
+
 variant = ""  # empty or downtown
+if options[:downtown]
+    variant = "downtown"
+end
+
 networks = [
     "june_we0",
     "june_we1",
