@@ -1,0 +1,19 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: code and data for Quantifying Barriers of Urban Mobility
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Gergő
+    family-names: Pintér
+    email: gergo.pinter@uni-corvinus.hu
+    orcid: 'https://orcid.org/0000-0003-4731-3816'
+    affiliation: Corvinus University of Budapest
+repository-code: 'https://github.com/pintergreg/quantifying-barriers-of-urban-mobility'
+abstract: >-
+  Software to reproduce the results of the research paper "Quantifying Barriers of Urban Mobility"
+license: BSD-2-Clause
