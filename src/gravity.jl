@@ -124,14 +124,6 @@ function main()
     fit_models_sep(df, output)
     fit_modelb(df, output)
 
-    # fit_model1(read_mesh(mesh_path, columns=["source", "target", "distance_ij", "p_i", "p_j", "mob_ij"]), output)
-    # fit_model2(read_mesh(mesh_path, columns=["source", "target", "distance_ij", "p_i", "p_j", "mob_ij", "primary_count"]), output)
-    # fit_model3(read_mesh(mesh_path, columns=["source", "target", "distance_ij", "p_i", "p_j", "mob_ij", "secondary_count"]), output)
-    # fit_model4(read_mesh(mesh_path, columns=["source", "target", "distance_ij", "p_i", "p_j", "mob_ij", "railway_count"]), output)
-    # fit_model5(read_mesh(mesh_path, columns=["source", "target", "distance_ij", "p_i", "p_j", "mob_ij", "river_count"]), output)
-    # fit_model6(read_mesh(mesh_path, columns=["source", "target", "distance_ij", "p_i", "p_j", "mob_ij", "districts_count"]), output)
-    # fit_model7(read_mesh(mesh_path, columns=["source", "target", "distance_ij", "p_i", "p_j", "mob_ij", "neighborhoods_count"]), output)
-    # fit_modelb(read_mesh(mesh_path), output)
 end;
 
 main()

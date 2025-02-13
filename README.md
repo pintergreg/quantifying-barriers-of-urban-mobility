@@ -220,7 +220,7 @@ To install dependencies and set up virtual environment, use the command `poetry 
 
 <details>
 <summary>debug</summary>
-Development repository version: 42788382276563034c5e0601f21b8d897fdaadf5
+Development repository version: bcdfde14c3a50a4a1f66d309f820fc6ed64544dd
 
 Please note that the development repository is not public, this is added only for debugging purposes.
 </details>
