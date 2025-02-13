@@ -121,7 +121,7 @@ python src/calculate_barrier_crossings.py --network observed --multithreading --
 ```
 
 
-### 4. convert to NetworkX edgelist
+### 4. Convert to NetworkX edgelist
 
 The 'place connection' CSVs are practically edgelists, but still contains additional information about the edges. Some scripts are designed to work exclusively with [NetworkX](https://networkx.org/) edgelists. The purpose of this script is to make the conversion.
 
@@ -131,7 +131,7 @@ poetry run python src/convert_to_edgelist.py --input data/<INPUT> --output outpu
 
 where `<INPUT>` is a place connection CSV and `<SUFFIX>` is an optional _variant identifier_.
 
-### 5. generate beeline trips
+### 5. Generate beeline trips
 
 As in the original, raw data there are no complete trajectories, the route between the origin and destination is assumed as a straight line.
 
@@ -145,7 +145,7 @@ where `<INPUT>` is a NetworkX edgelist without extension. Note that it is also g
 In other words, the INPUT is actually the 'name' of the network.
 
 
-### 6. calculate barrier crossings
+### 6. Calculate barrier crossings
 
 In this step the barrier crossing are calculated, if a trip (as a LineString) intersects a barrier geometry, then that is counted as a crossing.
 
@@ -160,7 +160,7 @@ where the `<INPUT>` is the 'name' of the network, as before.
 The `--pool` argument can be used to increase the parallelism in the processing, but note that it will increase the RAM usage as well.
 
 
-### calculate community crossings
+### 7. Calculate community crossings
 
 Similar to the previous step, but calculates the community border crossings.
 
@@ -176,7 +176,7 @@ For the `--run-stop` argument set how many times the Louvain community detection
 Do not change it unless you know what you are doing.
 
 
-### 7. calculating the Barrier Crossing Ratio
+### 8. calculating the Barrier Crossing Ratio
 
 In this step, the Barrier Crossing Ratio (BCR) is calculated, using the output of the previous two steps. BCR is defined as follows.
 
