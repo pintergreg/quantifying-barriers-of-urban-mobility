@@ -73,11 +73,6 @@ The geographic data is extracted from OpenStreetMap.
     - [dictionary that associates the settlements to the sectors of the agglomeration](data/sector_settlements.yaml)
         - defined by the Hungarian Central Statistical Office
 
-
-
-### blocks
-
-
 ### barriers
 
 - **primary roads**: `data/barriers_mp.geojson`
@@ -93,6 +88,33 @@ Roads are extracted from OpenStreetMap using [OSMnx](https://github.com/gboeing/
 The [`get_roads.py`](src/get_roads.py) script was developed to do the task.
 
 The river is extracted with the [`get_rivers.py`](src/get_rivers.py) script.
+
+
+#### generate barriers
+
+
+```
+python get_barrier_polygons.py -a ../data/budapest.geojson -o output/barriers_mp --no-railway -s motorway primary --river ../data/duna.geojson -t 0 -b 0
+```
+
+
+```
+python get_barrier_polygons.py -a ../data/budapest.geojson -o output/barriers_mps --no-railway -s motorway primary secondary --river ../data/duna.geojson -t 0 -b 0
+```
+
+
+
+```
+poetry run python get_barrier_polygons.py -a data/budapest.geojson -o output/barriers_river -t 0 -b 0 --street --no-railway --river data/duna.geojson
+```
+
+### blocks
+
+The blocks shapefile is just a special case of the roads, where every OSM highway type is taken into consideration.
+
+```
+python get_barrier_polygons.py -a ../data/budapest.geojson -o output/house_blocks_new --no-railway -s motorway trunk primary secondary tertiary unclassified residential --river ../data/duna.geojson
+```
 
 
 ## workflow
@@ -235,7 +257,7 @@ To install dependencies and set up virtual environment, use the command `poetry 
 
 <details>
 <summary>debug</summary>
-Development repository version: bcdfde14c3a50a4a1f66d309f820fc6ed64544dd
+Development repository version: 788c3c6f33b42f442e4f7c2e0023c0b7551c3752
 
 Please note that the development repository is not public, this is added only for debugging purposes.
 </details>
