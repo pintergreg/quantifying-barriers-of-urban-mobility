@@ -80,6 +80,18 @@ The geographic data is extracted from OpenStreetMap.
 
 ### barriers
 
+- **primary roads**: `data/barriers_mp.geojson`
+    - contains only motorways and primary roads according to OSM highways types, because trunks are not significant in Budapest
+    - <img src=".github/trunk_vs_motorway.png" width="300">
+- **secondary roads**: `data/barriers_mps.geojson`
+    - for continuity it also contains primary roads
+- **railways**: `data/barriers_railways.geojson`
+- **river**: `data/barriers_river.geojson`
+    - river Danube as a LineString
+
+Roads are extracted from OpenStreetMap using [OSMnx](https://github.com/gboeing/osmnx).
+The [`get_roads.py`](src/get_roads.py) script was developed to do the task.
+
 
 ## workflow
 
