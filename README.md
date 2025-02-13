@@ -92,6 +92,8 @@ The geographic data is extracted from OpenStreetMap.
 Roads are extracted from OpenStreetMap using [OSMnx](https://github.com/gboeing/osmnx).
 The [`get_roads.py`](src/get_roads.py) script was developed to do the task.
 
+The river is extracted with the [`get_rivers.py`](src/get_rivers.py) script.
+
 
 ## workflow
 
@@ -226,6 +228,7 @@ To install dependencies and set up virtual environment, use the command `poetry 
 ## license
 
 - The code is licensed under [BSD-2-Clause](LICENSE)
+- The observed networks (data/place_connections*.csv) are licensed under Open Data Commons Open Database License ([ODbL](https://opendatacommons.org/licenses/odbl/1-0/))
 - The documentation and figures are [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - The shape files are from OpenStreetMap and licensed under the Open Data Commons Open Database License ([ODbL](https://opendatacommons.org/licenses/odbl/1-0/))
 
