@@ -21,8 +21,6 @@ The public input files for
     - 13-14 July 2019: `data/place_connections_2019-07-13_2019-07-14.csv`
     - 20-21 July 2019: `data/place_connections_2019-07-20_2019-07-21.csv`
     - 27-28 July 2019: `data/place_connections_2019-07-27_2019-07-28.csv`
-    - > [!IMPORTANT]
-      > each of them has a downtown variant
 - Budapest district groups vs. agglomeration sector setting
     - the seven district group of Budapest
         - `place_connections_2019-09-01_2020-02-29_eastern_pest_inner.csv`
@@ -39,6 +37,9 @@ The public input files for
         - `place_connections_2019-09-01_2020-02-29_southern_sector.csv`
         - `place_connections_2019-09-01_2020-02-29_western_sector.csv`
         - `place_connections_2019-09-01_2020-02-29_north_western_sector.csv`
+
+> [!IMPORTANT]
+> each of the Liberty Bridge file have a downtown variant
 
 
 ### edgelist schema
@@ -71,6 +72,7 @@ The geographic data is extracted from OpenStreetMap.
         - used for the Liberty Bridge case study
     - [dictionary that associates the settlements to the sectors of the agglomeration](data/sector_settlements.yaml)
         - defined by the Hungarian Central Statistical Office
+
 
 
 ### blocks
@@ -218,7 +220,7 @@ To install dependencies and set up virtual environment, use the command `poetry 
 
 <details>
 <summary>debug</summary>
-Development repository version: 31c3f8e20493f2f06eab44f66b38e03cf31aa3ef
+Development repository version: 42788382276563034c5e0601f21b8d897fdaadf5
 
 Please note that the development repository is not public, this is added only for debugging purposes.
 </details>
