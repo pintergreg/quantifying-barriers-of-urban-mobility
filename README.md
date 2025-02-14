@@ -80,8 +80,8 @@ The geographic data is extracted from OpenStreetMap.
 - miscellaneous
     - [handdrawn shapefile of Budapest downtown](data/downtown.geojson)
         - used for the Liberty Bridge case study
-    - [dictionary that associates the settlements to the sectors of the agglomeration](data/sector_settlements.yaml)
-        - defined by the Hungarian Central Statistical Office
+    <!-- - [dictionary that associates the settlements to the sectors of the agglomeration](data/sector_settlements.yaml)
+        - defined by the Hungarian Central Statistical Office -->
 
 ### barriers
 
