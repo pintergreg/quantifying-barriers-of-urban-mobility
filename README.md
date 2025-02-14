@@ -217,7 +217,7 @@ For the `--run-stop` argument set how many times the Louvain community detection
 Do not change it unless you know what you are doing.
 
 
-### 8. calculating the Barrier Crossing Ratio
+### 8. Calculating the Barrier Crossing Ratio
 
 In this step, the Barrier Crossing Ratio (BCR) is calculated, using the output of the previous two steps. BCR is defined as follows.
 
