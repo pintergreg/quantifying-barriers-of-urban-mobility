@@ -2,6 +2,15 @@
 
 This repository contains scripts to reproduce the results of the research paper: Quantifying Barriers of Urban Mobility
 
+<!--## Citation-->
+
+<!-- <details>
+  <summary>BibTeX</summary>
+  <pre>
+
+  </pre>
+</details> -->
+
 
 ## input data
 
@@ -92,21 +101,28 @@ The river is extracted with the [`get_rivers.py`](src/get_rivers.py) script.
 
 #### generate barriers
 
+The 'city enclosures' module is responsible for generating the barrier files.
+Detailed information is available about its arguments at the [here](src/city_enclosures/).
 
-```
-python get_barrier_polygons.py -a ../data/budapest.geojson -o output/barriers_mp --no-railway -s motorway primary --river ../data/duna.geojson -t 0 -b 0
-```
+- for primary roads
+    ```
+    python get_barrier_polygons.py -a ../data/budapest.geojson -o output/barriers_mp --no-railway -s motorway primary --river ../data/duna.geojson -t 0 -b 0
+    ```
+- for secondary roads
+    ```
+    python get_barrier_polygons.py -a ../data/budapest.geojson -o output/barriers_mps --no-railway -s motorway primary secondary --river ../data/duna.geojson -t 0 -b 0
+    ```
+- for the river
+    ```
+    poetry run python get_barrier_polygons.py -a data/budapest.geojson -o output/barriers_river -t 0 -b 0 --street --no-railway --river data/duna.geojson
+    ```
+<!-- - for the railways -->
 
 
-```
-python get_barrier_polygons.py -a ../data/budapest.geojson -o output/barriers_mps --no-railway -s motorway primary secondary --river ../data/duna.geojson -t 0 -b 0
-```
+> [!IMPORTANT]
+> This extracts data from OSM, if the road network changes upstream, the result can also change.
+> The barrier files used for this study are included in this repository.
 
-
-
-```
-poetry run python get_barrier_polygons.py -a data/budapest.geojson -o output/barriers_river -t 0 -b 0 --street --no-railway --river data/duna.geojson
-```
 
 ### blocks
 
@@ -228,9 +244,6 @@ Three of them is (currently) written in Ruby (requires at least 3.0), the fourth
 - pipeline_libertybridge.rb: specifically developed to process the networks for Liberty Bridge case study
 - pipeline_weekday_weekend.rb: specifically developed to process the networks for workday-holiday comparison networks
 - pipeline_group.py: specifically developed to process the networks for district group vs. agglomeration comparisions
-
-
-<!--## Citation-->
 
 
 ## requirements
