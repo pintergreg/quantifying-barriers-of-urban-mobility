@@ -6,7 +6,7 @@ untracked/*
 
 input/
 
-# ecxlude outpu
+# ecxlude output, based on: https://stackoverflow.com/a/18702826/4737417
 !output/
 output/*
 # except
