@@ -5,3 +5,31 @@ __pycache__/
 untracked/*
 
 input/
+
+# ecxlude outpu
+!output/
+output/*
+# except
+!output/obs_ratio/
+output/obs_ratio/*
+# pre-pandemic period BCR
+!output/obs_ratio/normal/
+# pandemic period BCR
+!output/obs_ratio/covid19/
+# Liberty bridge case study BCR
+!output/obs_ratio/szabihid*/
+!output/obs_ratio/june_we*/
+# district group vs. agglomeration sector BCR
+!output/obs_ratio/eastern_pest_inner/
+!output/obs_ratio/eastern_pest_outer/
+!output/obs_ratio/inner_pest/
+!output/obs_ratio/north_buda/
+!output/obs_ratio/north_pest
+!output/obs_ratio/south_buda/
+!output/obs_ratio/south_pest/
+!output/obs_ratio/northern_sector/
+!output/obs_ratio/eastern_sector/
+!output/obs_ratio/south_eastern_sector/
+!output/obs_ratio/southern_sector/
+!output/obs_ratio/western_sector/
+!output/obs_ratio/north_western_sector/
