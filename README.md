@@ -76,6 +76,7 @@ The geographic data is extracted from OpenStreetMap.
     - [river Danube](data/duna.geojson)
     - [river Danube as LineString](data/duna_linestring.geojson)
 - infrastructure
+    - see below at barriers section
 - miscellaneous
     - [handdrawn shapefile of Budapest downtown](data/downtown.geojson)
         - used for the Liberty Bridge case study
