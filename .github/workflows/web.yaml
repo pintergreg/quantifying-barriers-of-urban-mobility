@@ -26,9 +26,6 @@ jobs:
             #- name: get theme
             #  run: git clone https://github.com/caressofsteel/hugo-story.git themes/hugo-story/
 
-            - name: chdir
-              run: cd qbum
-
             - name: Setup Hugo
               uses: peaceiris/actions-hugo@v3
               with:
@@ -36,7 +33,7 @@ jobs:
                   extended: true
 
             - name: Build
-              run: hugo --minify
+              run: hugo -s qbum --minify
 
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v4
@@ -46,4 +43,4 @@ jobs:
               if: github.ref == 'refs/heads/web'
               with:
                   github_token: ${{ secrets.PERSONAL_TOKEN }}
-                  publish_dir: ./public
+                  publish_dir: ./qbum/public
