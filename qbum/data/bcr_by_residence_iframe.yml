@@ -8,4 +8,4 @@ content: |
 style: "style1 small lightbox onscroll-fade-in"
 iframe:
     title: "residence areas"
-    src: residence_based_bcr.html
+    src: iframe/residence_based_bcr.html
