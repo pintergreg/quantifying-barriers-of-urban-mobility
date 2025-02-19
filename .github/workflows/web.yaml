@@ -22,7 +22,6 @@ jobs:
                   ref: "web"
                   # submodules: true # Fetch Hugo themes (true OR recursive)
                   fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
-                  # path: "qbum"
 
             #- name: get theme
             #  run: git clone https://github.com/caressofsteel/hugo-story.git themes/hugo-story/
