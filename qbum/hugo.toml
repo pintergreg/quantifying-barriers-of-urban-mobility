@@ -1,8 +1,12 @@
 ## -----------------------------------------------
 ## Basic Configuration
 ## -----------------------------------------------
-
+baseurl = "/"
+title = "Quantifying Barriers of Urban Mobility"
+languageCode = "en-US"
+defaultContentLanguage = "en"
 theme = "hugo-story"
+# theme = ["github.com/caressofsteel/hugo-story"]
 
 ## -----------------------------------------------
 ## Publish
@@ -34,3 +38,7 @@ disableKinds = ["taxonomy", "section"]
 [Params]
 
 [Params.social]
+
+# [module]
+#   [[module.imports]]
+#     path = "github.com/caressofsteel/hugo-story"
