@@ -1,0 +1,25 @@
+<!-- Footer -->
+<footer class="wrapper style1 align-center">
+    <div class="inner">
+        <ul class="" style="list-style: none;">
+            {{ range .Site.Data.authors }}
+            <li>
+            <h3 style="display: inline-block;">{{ .name }}</h3><span class="footerspacer"></span>
+            {{ with .orcid }}<a target="_blank" href="https://orcid.org/{{.}}" class="icon brands style2 fa-orcid"><span class="label">ORCID</span></a>{{end}}
+            {{ with .github }}<a target="_blank" href="https://github.com/{{.}}" class="icon brands style2 fa-github"><span class="label">Github</span></a>{{end}}
+            {{ with .twitter }}<a target="_blank" href="https://twitter.com/{{.}}" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a>{{end}}
+            </li>
+            {{ end }}
+        </ul>
+        <p>
+            2025 <span class="icon brands style1 fa-creative-commons"></span><span class="icon brands style1 fa-creative-commons-by"></span> <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/deed.en">CC BY 4.0</a>
+            <br>
+            The website built with <a target="_blank" href="https://gohugo.io/">Hugo</a>, using <a target="_blank" href="https://github.com/caressofsteel/hugo-story">Hugo Story</a> theme.
+        </p>
+</div>
+</footer>
+
+<!-- FontAwesome JS -->
+{{ range .Site.Params.asset.fontawesome_js -}}
+    <script type="text/javascript" src="{{ . | absURL }}"></script>
+{{- end }}
