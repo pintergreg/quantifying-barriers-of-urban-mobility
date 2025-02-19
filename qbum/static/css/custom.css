@@ -1,0 +1,10 @@
+/*.object-fit-contain div.image img {
+    object-fit: contain !important;
+    background: white;
+}
+.object-fit-contain div.image {
+    margin: 1px 0;
+}*/
+.sad-gallery article {
+    width: 16.5% !important;
+}
