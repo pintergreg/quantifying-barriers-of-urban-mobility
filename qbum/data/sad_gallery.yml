@@ -1,0 +1,40 @@
+title: "Community fitting to District 15"
+style: "style1 small lightbox onscroll-fade-in sad-gallery"
+content: |
+    As the Louvain resolution (&gamma;) increases the community matches the district boundary, which looses the community forming power at about &gamma; = 6.0, as the M3 motorway gradually cuts in half the community.
+pictures:
+    - title:
+      content:
+      image: "images/sad_gallery/fulls/d15_r1.0.png"
+      thumb: "images/sad_gallery/thumbs/d15_r1.0.png"
+      # button: "Details"
+
+    - title:
+      content:
+      image: "images/sad_gallery/fulls/d15_r3.0.png"
+      thumb: "images/sad_gallery/thumbs/d15_r3.0.png"
+      button:
+
+    - title:
+      content:
+      image: "images/sad_gallery/fulls/d15_r4.0.png"
+      thumb: "images/sad_gallery/thumbs/d15_r4.0.png"
+      button:
+
+    - title:
+      content:
+      image: "images/sad_gallery/fulls/d15_r6.0.png"
+      thumb: "images/sad_gallery/thumbs/d15_r6.0.png"
+      button:
+
+    - title:
+      content:
+      image: "images/sad_gallery/fulls/d15_r6.5.png"
+      thumb: "images/sad_gallery/thumbs/d15_r6.5.png"
+      button:
+
+    - title:
+      content:
+      image: "images/sad_gallery/fulls/d15_r8.0.png"
+      thumb: "images/sad_gallery/thumbs/d15_r8.0.png"
+      button:

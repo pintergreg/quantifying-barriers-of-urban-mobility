@@ -1,0 +1,9 @@
+####################### Spotlight #########################
+style: "style6 orient-left content-align-left image-position-right onscroll-image-fade-in"
+title: "Symmetric Area Difference"
+content: |
+    The Symmetric Area Difference (SAD) measures the sum of the areas that are not overlapping between detected mobility clusters and the areas delineated by the given barrier.
+    The area of the blocks clustered as a community, but outside the target polygon (e.g., district or enclosure) and the area of the target polygon that is not covered by the community is summarized as a measure.
+    Lower values of this index mean a better fit of the detected mobility clusters to urban boundaries.
+button:
+image: "images/community_overlaps_district_v3.png"

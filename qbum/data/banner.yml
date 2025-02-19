@@ -1,0 +1,15 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title: "Quantifying Barriers of Urban Mobility"
+subtitle:
+content: |
+    a city is full of barriers that limit human mobility, some are visible, some are not
+
+    administrative boundaries, natural obstacles, railways, roads: all can act as a barrier
+
+    in this study we introduce two indicators ti quantify the barrier effect
+# This is a <strong>Banner</strong> element, and it's generally used as an introduction or opening statement. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-banner">details</a>).
+button:
+    label: "download paper"
+    link: "https://arxiv.org/abs/2312.11343"
+image: "images/louvain_communities.png"

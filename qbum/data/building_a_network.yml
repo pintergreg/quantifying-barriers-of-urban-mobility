@@ -1,0 +1,13 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "first"
+title: "Building a network"
+content: |
+    Mobile positioning data &dash; collected from various, unspecified smartphone apps &dash; are used for this study.
+    It contains a timestamp, a user ID, and a GPS location.
+    These appereances are clusted into stops, where an individual spent some time.
+    Then, every stop is mapped to a block of the city, and considered a node of the network.
+    The blocks are connected with edges if an individual had consecutive stops in two blocks within a day.
+    Finally, the network is clustered into communities using the Louvain community detection algorithm.
+
+image: "images/stop_network.png"

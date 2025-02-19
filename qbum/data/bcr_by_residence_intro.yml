@@ -1,0 +1,13 @@
+####################### Spotlight #########################
+style: "style4 orient-left content-align-left image-position-center onscroll-image-fade-in"
+id: "residence-bcr-intro"
+title: "Barrier Crossing Ratio by residence"
+content: |
+    Urban barriers can have a divergent impact on neighborhoods as individuals daily mobility depends largely on the locations of work, schools, and services that are unevenly distributed in and around cities.
+    Thus, in the next step of the analysis, we assess the role of barriers in mobility by decomposing the set of individuals by areas of residence.
+
+    <br><br>photo by Sudika, <a target="_blank" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>, from <a target="_blank" href="https://commons.wikimedia.org/wiki/File:%C3%9Ajpesti_lak%C3%B3telep,_Sziv%C3%A1rv%C3%A1nyok.jpg">Wikimedia</a>
+#    <br><br>photo by Elekes Andor, <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>, from <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Buda%C3%B6rsi_Lak%C3%B3telep_(3).jpg">Wikimedia</a>
+#<br><br>photo by Supergranat0820, <a target="_blank" href="https://creativecommons.org/licenses/by/3.0/deed.en">CC BY 3.0</a>, from <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Havanna_lak%C3%B3telep_11._emeletr%C5%91l_-_panoramio.jpg">Wikimedia</a>
+# image: "images/Budaörsi_Lakótelep.jpg"
+image: "images/ujpesti_lakotelep.jpg"

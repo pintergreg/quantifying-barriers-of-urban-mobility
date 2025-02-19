@@ -1,0 +1,21 @@
+title: "Bridge closure case study"
+content: |
+    This event serves as a case study to analyze the barrier effect in a small-scale, local setting, where the  observation area is downtown Budapest.
+    Note that smaller BCR means stronger barrier effect.
+    During the bridge closure, the local mobility was affected; during the weekends of July 2019 the barrier effect is stronger than the reference weekends (June 2019).
+style: "style1 small lightbox onscroll-fade-in"
+pictures:
+    - title: "Observation area"
+      content: "downtown Budapest, marked by light blue"
+      image: images/liberty_bridge.png
+      thumb: images/liberty_bridge.png
+
+    - title: "Barrier Crossing Ratio"
+      content: "BCR during the weekends of July 2019 (green) and during the weekends of June 2019 (pink) as reference"
+      image: images/liberty_bridge_bcr.png
+      thumb: images/liberty_bridge_bcr.png
+
+    # - title: "BCR during June 2019"
+    #   content:
+    #   image: images/liberty_bridge_bcr_city_level.png
+    #   thumb: images/liberty_bridge_bcr_city_level.png

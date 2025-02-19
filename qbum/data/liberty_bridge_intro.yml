@@ -1,0 +1,8 @@
+####################### Spotlight #########################
+style: "style4 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "liberty-bridge-intro"
+title: "Closing the Liberty Bridge to vehicular traffic"
+content: |
+    Based on a community initiative, the Liberty Bride in Budapest was closed to vehicles on the weekends in July 2019, allowing people to use the bridge for recreational activities. For example, yoga and dance classes were held or people simply used the bridge for a picnic.
+    <br><br>photo by Walcandr, <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>, from <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Szabads%C3%A1g-h%C3%ADd,_Budapest,_a_Gell%C3%A9rt_hegyi_keresztt%C5%91l.jpg">Wikimedia</a>
+image: "images/Szabadság-híd.jpg"

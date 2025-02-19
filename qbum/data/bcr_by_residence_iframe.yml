@@ -1,0 +1,11 @@
+title: "Differences between Budapest and its agglomeration"
+content: |
+    The Hungarian Central Statistical Office defines seven district groups in Budapest and six sectors of the agglomeration.
+    The barrier effect is evaluated based on these 13 home location groups.
+    <br>
+    Again, smaller Barrier Crossing Ratio (BCR) means people experience stronger barrier effect.
+    <br>Our experiment shows that people living in Budapest faces stronger barrier effect considering every barrier type.
+style: "style1 small lightbox onscroll-fade-in"
+iframe:
+    title: "residence areas"
+    src: residence_based_bcr.html
