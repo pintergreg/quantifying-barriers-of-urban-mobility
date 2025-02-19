@@ -39,6 +39,7 @@ disableKinds = ["taxonomy", "section"]
 
 [Params.social]
 
-# [module]
-#   [[module.imports]]
-#     path = "github.com/caressofsteel/hugo-story"
+[module]
+  [[module.imports]]
+    path = "github.com/caressofsteel/hugo-story"
+    disable = true
