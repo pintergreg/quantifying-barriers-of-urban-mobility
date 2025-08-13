@@ -11,5 +11,5 @@ content: |
 # This is a <strong>Banner</strong> element, and it's generally used as an introduction or opening statement. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-banner">details</a>).
 button:
     label: "download paper"
-    link: "https://arxiv.org/abs/2312.11343"
+    link: "https://www.sciencedirect.com/science/article/pii/S0264275125006237"
 image: "images/louvain_communities.png"
