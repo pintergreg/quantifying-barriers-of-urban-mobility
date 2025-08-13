@@ -4,20 +4,20 @@ style: "style1 small onscroll-fade-in"
 items:
     # feature item loop
     - name:
-      content: "Barrier effect is present in urban mobility."
+      content: "A network science framework is presented to quantify barrier effects in urban mobility."
       style: "solid style2 major fa-city"
 
     # feature item loop
     - name:
-      content: "Not just the physical barrier, but the administrative boundaries limit the mobility."
+      content: "Not just the physical barriers, but the administrative boundaries also limit urban mobility."
       style: "solid style2 major fa-road-barrier"
 
     # feature item loop
     - name:
-      content: "The Louvain communities reflect to the hierarchy within barriers."
+      content: "The hierarchy of urban barriers are reflected by the communities of the mobility network."
       style: "solid style2 major fa-layer-group"
 
     # feature item loop
     - name:
-      content: "The barrier effect affects people differently based on their home location."
+      content: "Urban barriers have significantly different effects by people's home location and the amenity complexity of destinations."
       style: "solid style2 major fa-users"
