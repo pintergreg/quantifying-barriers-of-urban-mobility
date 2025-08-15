@@ -20,7 +20,7 @@ content: |
     The community breaks into a bigger (green) and a smaller (blue) community, and the blue one later increases trying to cover all the remaining area.
     The M3 motorway is responsible for all of this.
     The motorway divides the district into two parts and the network reflects to this.
-    If we tune the community detection to be more sensitive, it will detect weaker barriers.
+    If we tune the community detection to be more sensitive, it will detect weaker barriers as well.
     As the figures show, the boundaries of the district 15 are still barriers, strong enough to limit the communities, but a weaker one also plays its role here, the motorway.
 
 # increases the community matches the district boundary, which looses the community forming power at about &gamma; = 6.0, as the M3 motorway gradually cuts in half the community.
