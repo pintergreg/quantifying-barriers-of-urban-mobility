@@ -1,10 +1,23 @@
 title: "Differences between Budapest and its agglomeration"
 content: |
-    The Hungarian Central Statistical Office defines seven district groups in Budapest and six sectors of the agglomeration.
-    The barrier effect is evaluated based on these 13 home location groups.
+    Let's see an example, focusing on people's mobility customs in Budapest, but cluster them into groups based on where they live.
+    The Central Statistical Office of Hungary defines seven district groups in Budapest (pink) and six sectors of the agglomeration (green).
+    People, whose mobility constructs the network, are clustered into 13 groups, based on their home locations.
+    The results are displayed below in the figure, which shows the Barrier Crossing Ration in contrast of the resolution by the six type of barrier, and by the home location group of the individuals.
+    Please note that, the smaller Barrier Crossing Ratio (BCR) means that people experience stronger barrier effect.
+    <br><br>
+    Our experiment shows that people living in Budapest faces stronger barrier effect considering every barrier type.
+    This might sound a bit crazy, right?
+    People living in the agglomeration usually commute more, while crossing administrative boundaries roads, and maybe even the river.
     <br>
-    Again, smaller Barrier Crossing Ratio (BCR) means people experience stronger barrier effect.
-    <br>Our experiment shows that people living in Budapest faces stronger barrier effect considering every barrier type.
+    Well, this finding is actually aligns well with the literature and also the common sense.
+    Previous studies showed that people living in the center of a city tend to concentrate their life into a smaller area, as city centers usually provide every services they need.
+    If someone rarely leaves their neighborhood, they rarely crosses barriers.
+    If they don't cross barriers, their movement stays within the densely connected community, in other words the barrier between the communities feels like a strong one for them.
+    <br>
+    Also, don't forget that roads are usually built to connect places, not to divide people.
+    So, some of these barriers are actually help people living in the agglomeration to reach their destination. Or in other words, to break the barriers.
+
 style: "style1 small lightbox onscroll-fade-in"
 iframe:
     title: "residence areas"

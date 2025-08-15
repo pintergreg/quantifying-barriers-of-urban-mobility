@@ -1,11 +1,23 @@
 ####################### Spotlight #########################
-style: "style6 orient-right content-align-left image-position-center onscroll-image-fade-in invert"
+style: "style6 orient-right content-align-left image-position-center onscroll-image-fade-in"
 id: "bcr"
-title: "Barrier Crossing Ratio"
+title: "Counting barrier crossing"
 content: |
-    Next, we define the Barrier Crossing Ratio (BCR) index for different Louvain resolution values (&gamma;), which measures the relationship between those trips that cross barriers and those that cross barriers and communities as well.
-    We calculate the fraction of barrier and community crosses among all barrier crossings (separately by barrier types of <i>districts</i>, <i>neighborhoods</i>, <i>primary roads</i>, <i>secondary roads</i>, <i>railways</i>, and <i>rivers</i>), and take the inverse of this ratio.
-    Since the number of barrier crossings is constant to the resolution, and the size of the communities are decreasing as the resolution is increased, the BCR also decreases as the resolution is increased.
+    Now, that we've introduced the barrier effect using a network-science approach, let's examine how this affects the inhabitants of the city.
+    <br>
+    Let's focus on the individual trips in the city, and keep a record if a trip crosses a barrier (e.g., a district boundary, a busy multilane road, a railway, or a river).
+    Furthermore, note down if a barrier crossing is also a community crossing.
+    Have a look at the figure on the left for better understanding.
+    <br>
+    Then, we calculate the fraction of the barrier and the community crosses among all barrier crossings (separately by barrier types of <i>districts</i>, <i>neighborhoods</i>, <i>primary roads</i>, <i>secondary roads</i>, <i>railways</i>, and <i>rivers</i>), and take the inverse of this ratio.
+    We call this measure, the Barrier Crossing Ratio, which describes that how much a given type of barrier affects to people.
+    Budapest is divided by the river Danube, so it is an obvious barrier, but not every barrier is supposed to affect everyone the same way.
+    It is important, that we do this for different resolution values, because the communities are formed differently at different resolutions, as it was shown before.
+    <br><br>
+    Why is this important, you might ask.
+    Well, it gets interesting, when we sort people into different groups and examine how a given barrier affects these groups.
+# Next, we define the Barrier Crossing Ratio (BCR) index for different Louvain resolution values (&gamma;), which measures the relationship between those trips that cross barriers and those that cross barriers and communities as well.
+# Since the number of barrier crossings is constant to the resolution, and the size of the communities are decreasing as the resolution is increased, the BCR also decreases as the resolution is increased.
 # A smaller BCR means stronger barrier effect.
 # community crossing increase  of the indicator along increasing γ signals tha
 image: "images/barrier_and_community_crossing_v3.png"
