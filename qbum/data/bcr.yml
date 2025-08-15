@@ -16,8 +16,4 @@ content: |
     <br><br>
     Why is this important, you might ask.
     Well, it gets interesting, when we sort people into different groups and examine how a given barrier affects these groups.
-# Next, we define the Barrier Crossing Ratio (BCR) index for different Louvain resolution values (&gamma;), which measures the relationship between those trips that cross barriers and those that cross barriers and communities as well.
-# Since the number of barrier crossings is constant to the resolution, and the size of the communities are decreasing as the resolution is increased, the BCR also decreases as the resolution is increased.
-# A smaller BCR means stronger barrier effect.
-# community crossing increase  of the indicator along increasing γ signals tha
 image: "images/barrier_and_community_crossing_v3.png"

@@ -2,9 +2,6 @@
 style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
 id: "first"
 title: "Building a network"
-# Mobile positioning data &dash; collected from various, unspecified smartphone apps &dash; are used for this study.
-# It contains a timestamp, a user ID, and a GPS location.
-# Finally, the network is clustered into communities using the Louvain community detection algorithm.
 content: |
     How to use a network to characterize the barriers of an urban landscape?
     A city is full of networks: road network, public transport network, system of public utilities and so on.

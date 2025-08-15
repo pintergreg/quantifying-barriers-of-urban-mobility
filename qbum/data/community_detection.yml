@@ -9,5 +9,4 @@ content: |
     <br>
     The figure shows two communities detected in Budapest, the barrier between them is the district boundary between district 4 (pink) and 15 (gray), as the pink one matched with district 4 and the gray one with district 15.
     Connections between the communities are yellow.
-# Finally, the network is clustered into communities using the Louvain community detection algorithm.
 image: "images/community.png"

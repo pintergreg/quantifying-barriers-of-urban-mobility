@@ -1,7 +1,5 @@
-# title: "Community fitting to District 15"
 title: "Dynamics of communities"
 style: "style1 small lightbox onscroll-fade-in sad-gallery"
-# If this value is small, then
 content: |
     Now, we see how the communities and barriers are detected, but are they allways the same? Well, the short answer is no.
     <br><br>
@@ -23,7 +21,6 @@ content: |
     If we tune the community detection to be more sensitive, it will detect weaker barriers as well.
     As the figures show, the boundaries of the district 15 are still barriers, strong enough to limit the communities, but a weaker one also plays its role here, the motorway.
 
-# increases the community matches the district boundary, which looses the community forming power at about &gamma; = 6.0, as the M3 motorway gradually cuts in half the community.
 pictures:
     - title:
       content:
