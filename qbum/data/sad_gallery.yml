@@ -1,26 +1,29 @@
 title: "Dynamics of communities"
 style: "style1 small lightbox onscroll-fade-in sad-gallery"
 content: |
-    Now, we see how the communities and barriers are detected, but are they allways the same? Well, the short answer is no.
+    We know how communities and barriers are identified, but do they always look the same?
+    Well, the short answer is no.
     <br><br>
-    The barrier is a loose connection between two densely connected part of the network, but what does loose mean exactly?
-    The Louvain community detection, we applied, has a parameter, called resolution (&gamma;), which describes the how loose an inter-community connection should be to interpret it as a barrier.
+    The barrier is a loose connection between two densely connected part of the network, but what does "loose" mean in this case?
+    We used the Louvain community detection method, which has a parameter, called resolution (&gamma;), which describes the how loose an inter-community connection should be to interpret it as a barrier.
     <br><br>
-    The following example shows district 15 (the gray one from a previous case).
-    Every figure shows the resolution value in the top-left corner, and the Symmetric Area Difference (SAD) from the previous section compared to the resolution in the top-right corner.
+    Here's an example of District 15 (the gray one we talked about before).
+    Each figure shows the resolution value in the top-left corner, and the Symmetric Area Difference (SAD) from the last section compared to the resolution in the top-right corner.
     The main part of the figure compares the community to the district boundary.
-    With very small resolution value the community is much bigger than the district.
-    As we increase the resolution, the community matches with the district at &gamma; = 4.0.
-    It can be seen, that only a very small area of the district is not covered by the community, and at the same time, barely any blocks belong to the community outside of the district.
-    The sum area of the community almost equals to the district, thus the SAD difference is almost zero (have a look at the top-right corners of the figures below).
+    At first, the community is way bigger than the district because the resolution value is really small.
+    As we increase the resolution, the community and the district match at &gamma; = 4.0.
+    You can see that only a tiny bit of the district isn't covered by the community, and at the same time, barely any blocks belong to the community outside of the district.
+    The total area of the community is pretty much the same as the district, so the SAD difference is almost zero (see the top-right corners of the figures below).
     <br><br>
     The good fit lasts for a while (until about &gamma; = 6.5), but then something happens.
-    The community breaks into a bigger (green) and a smaller (blue) community, and the blue one later increases trying to cover all the remaining area.
+    The community is split into two parts: a bigger (green) and a smaller (blue) community.
+    Later on, and the blue one later tries to extend to cover all the remaining area.
     The M3 motorway is responsible for all of this.
     The motorway divides the district into two parts and the network reflects to this.
-    If we tune the community detection to be more sensitive, it will detect weaker barriers as well.
-    As the figures show, the boundaries of the district 15 are still barriers, strong enough to limit the communities, but a weaker one also plays its role here, the motorway.
-
+    If we make the community detection to be more sensitive by increasing the resolution, it'll detect weaker barriers as well.
+    As you can see in the figures below, the boundaries of the District 15 are still barriers, strong enough to limit the communities.
+    But then something new comes into the game: the motorway.
+# As the figures show, the boundaries of the district 15 are still barriers, strong enough to limit the communities, but a weaker one also plays its role here, the motorway.
 pictures:
     - title:
       content:

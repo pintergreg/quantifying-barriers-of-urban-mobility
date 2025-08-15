@@ -3,15 +3,15 @@ style: "style1 orient-right content-align-left image-position-center onscroll-im
 id: "first"
 title: "Building a network"
 content: |
-    How to use a network to characterize the barriers of an urban landscape?
-    A city is full of networks: road network, public transport network, system of public utilities and so on.
-    Yet, we construct a different one from peoples movement in the city.
+    How can you use a network to characterize the barriers of an urban landscape?
+    A city's got all sorts of networks: roads, public transport, public utilities and so on.
+    Yet, we build a different one based on how people move around in the city.
 
-    Several smartphone apps &dash; and the services behind them &dash; collect geographic locations.
-    And there are some companies that aggregate these location info and provide it for research purposes.
-    A record of the mobile positioning data contains a timestamp, a device ID, and a GPS location.
-    These appearances are clustered into "stops", where an individual spent some time.
+    A lot of smartphone apps and the services that power them collect geographic locations.
+    Some companies collect this location info and provide it for research purposes.
+    The mobile positioning data record includes a timestamp, a device ID, and a GPS location.
+    These appearances are clustered into "stops", where someone spent some time.
     Then, every stop is mapped to a block of the city (as the figure shows), and considered a node of the network.
-    The blocks are connected with edges if an individual had consecutive stops in two blocks within a day.
+    The blocks are connected by edges if someone stops in two blocks in a row within a day.
 
 image: "images/stop_network.png"

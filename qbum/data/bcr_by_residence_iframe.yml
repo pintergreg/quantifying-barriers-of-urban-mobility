@@ -4,21 +4,21 @@ content: |
     The Central Statistical Office of Hungary defines seven district groups in Budapest (pink) and six sectors of the agglomeration (green).
     The people whose mobility patterns construct the network, are clustered into thirteen groups, based on their home locations.
     The results are displayed in the figure below, which shows the Barrier Crossing Ratio in contrast to the resolution by the six types of barriers, and by the home location group of the individuals.
-    Please note that, a smaller Barrier Crossing Ratio (BCR) indicates a stronger barrier effect.
+    Just a heads-up: a smaller Barrier Crossing Ratio (BCR) indicates a stronger barrier effect.
     <br><br>
     Our experiment shows that people living in Budapest experience a stronger barrier effect considering with every barrier type.
     This might sound a bit crazy, right?
-    People living in the agglomeration usually commute more, while crossing administrative boundaries, roads, and perhaps even the river.
+    People living in the agglomeration usually have longer commutes, while crossing administrative boundaries, roads, and maybe even the river.
     <br>
-    This finding is actually aligns well with previous studies and also the common sense.
+    This actually lines up pretty well with previous studies and also the common sense.
     Previous studies have shown that people living in the center of a city tend to concentrate their lives in a smaller area, because city centers usually provide all the necessary services.
     If someone rarely leaves their neighborhood, they rarely cross barriers.
     If they don't cross barriers, their movement stays within the densely connected community.
     In other words, the barrier between the communities feels strong to them.
     <br>
-    Also, remember that roads are usually built to connect places, not to divide people.
+    And don't forget that roads are usually built to connect places, not to divide people.
     Some of these barriers are actually help people living in the agglomeration to reach their destinations.
-    In other words, they help break down barriers.
+    Basically, they help break down barriers.
 
 style: "style1 small lightbox onscroll-fade-in"
 iframe:

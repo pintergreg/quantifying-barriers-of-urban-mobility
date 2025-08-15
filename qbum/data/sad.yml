@@ -3,18 +3,19 @@ style: "style6 orient-left content-align-left image-position-right onscroll-imag
 title: "What limits a community?"
 content: |
     It was previously mentioned that communities match with districts.
-    Is it possible to measure this matching?
+    Is there a way to measure this match?
     <br><br>
     Imagine two overlapping shapes, and the question is how well they match.
-    If we rephrase the question, we want to know how big the non-matching parts, compared to the matching one.
-    For example, the community area which is outside the districts, and the district area, that is not covered by the community.
+    If we rephrase the question, we want to know how big the non-matching parts are compared to the matching ones.
+    For example, there's the community area, which is outside the districts, and then there's the district area, which isn't covered by the community.
     <br><br>
-    Luckily, a method is already defined in mathematics, which can give an answer to the rephrased question, and it is called symmetric difference.
-    The area of the blocks clustered as a community, but outside the target district, and the area of the district that is not covered by the community is summarized as a measure, and we call it Symmetric Area Difference.
-    Lower values of this index mean a better fit of the detected mobility clusters to urban boundaries, as the error of the matching (the area of the non-matching parts) is smaller.
+    Luckily, there's already a method in mathematics that can give an answer to the rephrased question, and it's called the symmetric difference.
+    The area of the blocks that are clustered as a community, but outside the target district, as well as the area of the district that isn't covered by the community is summarized as a measure.
+    We call it Symmetric Area Difference.
+    Lower values of this index mean that the detected mobility clusters fit better to urban boundaries, since the error of the matching (the area of the non-matching parts) is smaller.
     <br><br>
-    The figure on the right illustrates this method.
-    We have a district with yellow, and a community with orange.
-    They are overlapping, but a large part of the district is not covered, and at the same time, the community covert quite some area that does not belong to the district.
+    The figure on the right shows this method.
+    We've got a district with yellow, and a community with orange.
+    They overlap, but a big part of the district isn't covered, and at the same time, the community covers quite some area that doesn't belong to the district.
 button:
 image: "images/community_overlaps_district_v3.png"
