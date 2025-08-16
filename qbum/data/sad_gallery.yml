@@ -17,7 +17,7 @@ content: |
     <br><br>
     The good fit lasts for a while (until about &gamma; = 6.5), but then something happens.
     The community is split into two parts: a bigger (green) and a smaller (blue) community.
-    Later on, and the blue one later tries to extend to cover all the remaining area.
+    Later on, the blue one later tries to extend to cover all the remaining area.
     The M3 motorway is responsible for all of this.
     The motorway divides the district into two parts and the network reflects to this.
     If we make the community detection to be more sensitive by increasing the resolution, it'll detect weaker barriers as well.
