@@ -13,7 +13,7 @@ content: |
     At first, the community is way bigger than the district because the resolution value is really small.
     As we increase the resolution, the community and the district match at &gamma; = 4.0.
     You can see that only a tiny bit of the district isn't covered by the community, and at the same time, barely any blocks belong to the community outside of the district.
-    The total area of the community is pretty much the same as the district, so the SAD difference is almost zero (see the top-right corners of the figures below).
+    The total area of the community is pretty much the same as the district, so the SAD is almost zero (see the top-right corners of the figures below).
     <br><br>
     The good fit lasts for a while (until about &gamma; = 6.5), but then something happens.
     The community is split into two parts: a bigger (green) and a smaller (blue) community.
