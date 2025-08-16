@@ -11,7 +11,7 @@ These appearances are clustered into "stops", where someone spent some time.
 Then, every stop is mapped to a block of the city (as the figure shows), and considered a node of the network.
 The blocks are connected by edges if someone stops in two blocks in a row within a day.</p></div><div class=image><img src=images/stop_network.png alt></div></section><section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id=first><div class=content><h2>How to identify barriers in a network?</h2><p>There's a pretty cool technique called community detection, that can identify densely connected parts of a network that are loosely connected to each other.
 A densely connected part is called a community, but what's more important right now is that the loosely connected path between them is a barrier.<br><br>The figure shows two communities in Budapest.
-The barrier between them is the district boundary between district 4 (pink) and 15 (gray), as the pink one matched with district 4 and the gray one with district 15.
+The barrier between them is the district boundary between District 4 (pink) and 15 (gray), as the pink one matched with District 4 and the gray one with District 15.
 The connections between the communities depicted by yellow.</p></div><div class=image><img src=images/community.png alt></div></section><section class="spotlight style6 orient-left content-align-left image-position-right onscroll-image-fade-in"><div class=content><h2>What limits a community?</h2><p>It was previously mentioned that communities match with districts.
 Is there a way to measure this match?<br><br>Imagine two overlapping shapes, and the question is how well they match.
 If we rephrase the question, we want to know how big the non-matching parts are compared to the matching ones.
@@ -28,7 +28,7 @@ The main part of the figure compares the community to the district boundary.
 At first, the community is way bigger than the district because the resolution value is really small.
 As we increase the resolution, the community and the district match at &#947; = 4.0.
 You can see that only a tiny bit of the district isn't covered by the community, and at the same time, barely any blocks belong to the community outside of the district.
-The total area of the community is pretty much the same as the district, so the SAD difference is almost zero (see the top-right corners of the figures below).<br><br>The good fit lasts for a while (until about &#947; = 6.5), but then something happens.
+The total area of the community is pretty much the same as the district, so the SAD is almost zero (see the top-right corners of the figures below).<br><br>The good fit lasts for a while (until about &#947; = 6.5), but then something happens.
 The community is split into two parts: a bigger (green) and a smaller (blue) community.
 Later on, and the blue one later tries to extend to cover all the remaining area.
 The M3 motorway is responsible for all of this.
