@@ -36,8 +36,17 @@ disableKinds = ["taxonomy", "section"]
 ## -----------------------------------------------
 
 [Params]
+  author = "Gergő Pintér"
+  description = "Promotion webpage for the scientific paper Quantifying Barriers of Urban Mobility"
+  keywords = ["mobile positioning data", "urban mobility", "community detection", "spatial barriers", "community severance"]
+  images = ["images/louvain_communities.png"]
 
 [Params.social]
+
+[privacy]
+  [privacy.googleAnalytics]
+    disable = true
+    respectDoNotTrack = true
 
 [module]
   [[module.imports]]
