@@ -11,7 +11,7 @@ content: |
     <br><br>
     Luckily, there's already a method in mathematics that can give an answer to the rephrased question, and it's called the symmetric difference.
     The area of the blocks that are clustered as a community, but outside the target district, as well as the area of the district that isn't covered by the community is summarized as a measure.
-    We call it Symmetric Area Difference.
+    The first indicator we introduce is called Symmetric Area Difference.
     Lower values of this index mean that the detected mobility clusters fit better to urban boundaries, since the error of the matching (the area of the non-matching parts) is smaller.
     <br><br>
     The figure on the right shows this method.
